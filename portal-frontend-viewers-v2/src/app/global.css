@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('/fonts/century-gothic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Optional: You can also include a bold version if you have it */
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('/fonts/century-gothic-bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Apply Century Gothic to the entire app */
+html, body {
+  font-family: 'Century Gothic', sans-serif;
+}
